@@ -1,15 +1,11 @@
 
 package com.mycompany.restaurante;
 
-/**
- *
- * @author CAMILEDAANUNCIAÇÃOLI
- */
 public class ItemCardapio {
     private String nome;
     private double preco;
     private int codigo;
-    private String descrcao;
+    private String descricao;
     
     
     public ItemCardapio (String nome, double preco, int codigo){
@@ -35,8 +31,13 @@ public class ItemCardapio {
     public void setPreco (double preco){
         this.preco = preco;
     }
-}
+
 
     public void exibirInformacoes (){
-    System.out.println("Nome: " + nome);
+    System.out.println("Nome: " + (codigo));
+    System.out.println("Valor: " + preco);
+    System.out.println("Descricao: " + descricao);
+    
+}
+
 }

@@ -1,13 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.mycompany.restaurante;
 
-/**
- *
- * @author CAMILEDAANUNCIAÇÃOLI
- */
+import java.awt.List;
+import java.util.ArrayList;
+
+
 public class Cardapio {
+    private List <ItemCardapio> itens = new ArrayList <>();
     
 }
